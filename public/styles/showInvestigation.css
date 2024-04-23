@@ -1,0 +1,246 @@
+.navbar {
+  background: linear-gradient(
+    to right,
+    #1f1f1f,
+    #181818
+  ); /* Gradiente de colores oscuros */
+  position: fixed;
+  width: 100%;
+  height: 15%;
+  z-index: 1000;
+}
+
+.navbar-brand img {
+  filter: brightness(0) invert(1);
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #006400 !important;
+}
+
+.carousel-item {
+  right: 17px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #fff; /* Fondo blanco */
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.content {
+  flex: 1;
+  padding-top: 60px;
+  margin-bottom: auto; /* Añade margen automático en la parte inferior */
+}
+
+.footer-container {
+  background: linear-gradient(
+    to right,
+    #1f1f1f,
+    #181818
+  ); /* Gradiente de colores oscuros */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-section {
+  flex: 1;
+}
+
+.social-icon {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding-top: 100px;
+}
+
+img {
+  padding-left: 60px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form {
+  width: 400px;
+  padding: 40px;
+  background-color: rgba(50, 50, 50, 0.8); /* Fondo negro semi-transparente */
+  border: 1px solid #333; /* Borde gris oscuro */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra oscura */
+}
+
+.login-form h2 {
+  color: #fff; /* Texto blanco */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  height: 40px;
+  background-color: #333; /* Fondo gris oscuro para campos de entrada */
+  color: #fff; /* Texto blanco para campos de entrada */
+  border: 1px solid #444; /* Borde gris más oscuro */
+}
+
+.btn-primary {
+  background-color: #006400; /* Verde oscuro */
+  border-color: #006400;
+}
+
+.btn-primary:hover {
+  background-color: #004d00; /* Verde más oscuro al pasar el ratón */
+  border-color: #004d00;
+}
+
+.show-more-section {
+  width: 50%;
+  height: 50%;
+  background-color: #fff; /* Fondo blanco */
+  padding: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 100px;
+  margin-top: 70px;
+}
+
+#authorProfilePicture img {
+  max-width: 300px; /* Tamaño máximo de la imagen */
+  margin-right: 100px;
+}
+
+.show-more-section img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 6px;
+}
+
+.show-more-section > * {
+  margin-bottom: 4px;
+  font-size: 16px; /* Ajusta según tus necesidades */
+}
+
+.show-more-section h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.project img {
+  float: left;
+  margin-right: 10px; /* Espacio entre la imagen y el texto, ajusta según tus necesidades */
+}
+
+#commentsContainer {
+  padding-top: 100px;
+  margin-bottom: 400px;
+}
+
+#commentForm {
+  max-width: 400px; /* Ajusta según tus necesidades */
+  padding: 20px;
+  background-color: #f8f9fa; /* Fondo gris claro */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20%;
+}
+
+#commentForm label {
+  font-weight: bold;
+}
+
+#commentText,
+#ratingSelect {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px; /* Espacio entre los elementos */
+}
+
+#btnSaveComment {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Azul brillante */
+  color: #fff; /* Texto blanco */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#btnSaveComment:hover {
+  background-color: #0056b3; /* Cambio de color al pasar el ratón */
+}
+
+.project {
+  width: 53%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #ddd;
+  padding: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.project p {
+  margin: 0; /* Elimina el margen predeterminado del párrafo si lo hay */
+}
+
+.project h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#filterContainer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.filterItem {
+  display: inline-block;
+  margin-bottom: 2rem; /* Ajusta el espacio entre elementos según tus necesidades */
+}
+
+#areaFilter {
+  margin-right: 3.5rem; /* Margen derecho para el primer elemento */
+}
+
+#gradeFilter {
+  margin-left: 3.6rem; /* Margen izquierdo para el segundo elemento */
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+}

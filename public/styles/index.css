@@ -1,0 +1,299 @@
+.navbar {
+  background: linear-gradient(to right, #1f1f1f, #181818);
+  position: fixed;
+  width: 100%;
+  height: 15%;
+  z-index: 1000;
+}
+
+.navbar-brand img {
+  filter: brightness(0) invert(1);
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #006400 !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to right, #ffffff, #fdfdfd);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.carousel-item {
+  right: 17px;
+}
+
+.content {
+  flex: 1;
+  padding-top: 60px;
+}
+
+.footer-container {
+  background: linear-gradient(to right, #1f1f1f, #181818);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-section {
+  flex: 1;
+}
+
+.social-icon {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding-top: 100px;
+}
+
+img {
+  padding-left: 60px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form {
+  width: 400px;
+  padding: 40px;
+  background-color: rgba(50, 50, 50, 0.8);
+  border: 1px solid #333;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-form h2 {
+  color: #fff; /* Texto blanco */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  height: 40px;
+  background-color: #333; /* Fondo gris oscuro para campos de entrada */
+  color: #fff; /* Texto blanco para campos de entrada */
+  border: 1px solid #444; /* Borde gris más oscuro */
+}
+
+.btn-primary {
+  background-color: #006400; /* Verde oscuro */
+  border-color: #006400;
+}
+
+.btn-primary:hover {
+  background-color: #004d00; /* Verde más oscuro al pasar el ratón */
+  border-color: #004d00;
+}
+
+/* styles.css */
+
+h2 {
+  color: #333; /* Cambia el color del texto según tu preferencia */
+  font-size: 24px; /* Ajusta el tamaño del texto según tu preferencia */
+  text-align: center; /* Centra el texto */
+  margin-top: 20px; /* Ajusta el margen superior según tu preferencia */
+}
+
+#carouselExampleInterval {
+  max-width: 800px; /* Ajusta el ancho máximo del carrusel según tu preferencia */
+  margin: 0 auto; /* Centra el carrusel en la página */
+}
+
+.carousel-inner img {
+  width: 100%; /* Ajusta el ancho de las imágenes al 100% del contenedor */
+  height: auto; /* Hace que la altura se ajuste automáticamente para mantener la proporción */
+}
+/* styles.css */
+
+h2 {
+  color: #333;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#carouselExampleInterval {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  padding-top: 20px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.col-md-8,
+.col-md-4 {
+  margin-bottom: 20px;
+}
+
+.col-md-4 h3,
+.col-md-8 h3 {
+  border-bottom: 2px solid #007bb5;
+  padding-bottom: 5px;
+}
+
+.col-md-4 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.col-md-4 li {
+  margin-bottom: 10px;
+}
+
+.col-md-4 a {
+  text-decoration: none;
+  color: #007bb5;
+}
+
+.col-md-4 a:hover {
+  text-decoration: underline;
+}
+/* Agregamos estilos directamente en línea para mejorar el diseño del texto de bienvenida */
+.welcome-text {
+  font-family: "Arial", sans-serif; /* Cambia la fuente del texto según tu preferencia */
+  font-size: 24px; /* Ajusta el tamaño del texto según tu preferencia */
+  line-height: 1.5; /* Ajusta el espacio entre líneas para mejorar la legibilidad */
+  margin-bottom: 20px; /* Añade espacio en la parte inferior del texto */
+}
+
+.welcome-text p {
+  font-size: 18px; /* Ajusta el tamaño del texto del párrafo según tu preferencia */
+}
+#carouselExampleInterval {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.carousel-inner img {
+  width: 90%;
+  height: auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  margin-top: 60px; /* Ajusta la cantidad de margen según sea necesario */
+}
+
+body {
+  padding-top: 56px; /* Ajustar según la altura del menú */
+}
+
+.about-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.about-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.team-member img {
+  width: 275px; /* Ajusta el ancho según sea necesario */
+  height: auto; /* Deja la altura automática para mantener la proporción */
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.member-details {
+  text-align: center;
+}
+
+.team-member-name {
+  font-weight: bold;
+}
+
+.team-member-role {
+  font-size: 14px;
+}
+
+.fa:hover {
+  color: #006400 !important;
+}
+
+.link-auth {
+  text-decoration: none;
+  color: white;
+}
+
+.link-auth:hover {
+  color: #006400;
+  text-decoration: none !important;
+}
+
+.green-foc:focus {
+  background-color: #006400 !important;
+}
+
+/* Ajuste de estilos para tarjetas de miembros del equipo */
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.5rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .card {
+    flex: 1 0 30%; /* Para que las tarjetas ocupen un tercio del espacio en pantallas medianas y grandes */
+  }
+}

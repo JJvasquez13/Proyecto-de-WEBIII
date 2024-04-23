@@ -1,0 +1,52 @@
+body {
+  margin: 20px 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background: white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 110vh;
+}
+
+.boton1 {
+  width: 100%;
+}
+
+.student-form {
+  width: 400px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.student-form h2 {
+  color: #343a40;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  height: 40px;
+}
+
+.btn-primary {
+  background-color: #006400 !important; /* Verde oscuro */
+  border-color: #006400 !important;
+}
+
+.btn-primary:focus {
+  box-shadow: none !important;
+}
+
+.btn-primary:hover {
+  background-color: #004d00 !important; /* Verde más oscuro al pasar el ratón */
+  border-color: #004d00 !important;
+}
